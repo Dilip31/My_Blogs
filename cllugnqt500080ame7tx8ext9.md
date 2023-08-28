@@ -1,7 +1,5 @@
 ---
 title: "Getting Started with DevOps"
-seoTitle: ""Beginner's Guide to DevOps: Getting Started Today!""
-seoDescription: "Mastering the Basics: Getting Started with DevOps for Beginners"
 datePublished: Mon Aug 28 2023 05:50:42 GMT+0000 (Coordinated Universal Time)
 cuid: cllugnqt500080ame7tx8ext9
 slug: getting-started-with-devops
