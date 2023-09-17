@@ -1,8 +1,8 @@
 ---
-title: "Introduction to Linux"
+title: "Introduction to Linux-1"
 datePublished: Tue Aug 29 2023 12:02:03 GMT+0000 (Coordinated Universal Time)
 cuid: cllw9d61n000809l8adr4bom7
-slug: introduction-to-linux
+slug: introduction-to-linux-1
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693310226250/5e2f826c-50db-437e-9e6c-79d4b9896c79.jpeg
 tags: linux, developer, devops, 90daysofdevops
 
@@ -14,17 +14,11 @@ tags: linux, developer, devops, 90daysofdevops
 
 Believe it or not,🤖 Android is a version of Linux! So, if you're working in a company, chances are high that you're interacting with Linux.
 
-👴 **UNIX: The Ancestor of It All** 🌟
-
-UNIX is the granddaddy of modern tech. It paved the way for macOS and Linux.
-
-💼 **macOS and Linux: Offspring of UNIX** 💻
-
-macOS went into the hands of Apple, while Linux took the open-source route.
-
-🪂 **Linux Touches Windows with WSL** 🪟
-
-In the present day, Linux even steps into the Windows world through WSL (Windows Subsystem for Linux). It's like having Linux inside your Windows operating system!
+> UNIX is the granddaddy of modern tech. It paved the way for macOS and Linux.
+> 
+> macOS went into the hands of Apple, while Linux took the open-source route.
+> 
+> In the present day, Linux even steps into the Windows world through WSL (Windows Subsystem for Linux). It's like having Linux inside your Windows operating system!
 
 # 🔹architecture
 
@@ -34,48 +28,30 @@ In the present day, Linux even steps into the Windows world through WSL (Windows
 > 
 > Linus Torvalds, the visionary, gave birth to the Linux kernel in 1991 and later crafted Git in 2005. 🚀
 
-The kernel acts as Linux's heart, meticulously written in the C language. It's the bridge connecting hardware to applications. 🖱️ Meanwhile, the shell serves as the mediator between applications and the kernel.
+**terminal**:A program which is responsible for providing an interface to a user so that he/she can access the shell. It basically allows users to enter commands and see the output of those commands in a text-based interface.
 
-When you're eager to add something to your operating system, you dive into the world of the shell.
+**shell**:Shell accepts human-readable commands from users and converts them into something which the kernel can understand.shell is program written in c language.
 
-> Utilities are like handy apps, much like a voice recorder 🎙️ for example.
+shell-&gt;ksh(korne shell)-&gt;bash(bourne again shell)-&gt;csh-&gt;zsh
 
-use Linux within your Windows environment through options like Amazon AWS(a service that gives servers on rent) 🌐, VirtualBox 💻, Vagrant ⚙️, and dual boot.
+Shell is broadly classified into two categories –
 
-# 🔹Setting up Linux on an AWS EC2 instance
-
-🌐 **Step 1: Create an AWS Account**
-
-* Sign up for an AWS account if you don't have one.
+* Command Line Shell
+    
+* Graphical shell
     
 
-☁️ **Step 2: Launch an EC2 Instance**
+**Kernal**:the kernel is a computer program that is the core of a computer’s operating system, with complete control over everything in the system. It manages the following resources of the Linux system –It's the bridge connecting hardware to applications.
 
-* Go to the EC2 dashboard.
+* File management
     
-* Click "Launch Instance" to start the setup.
+* Process management
     
-
-🖼️ **Step 3: Choose an AMI and Instance Type**
-
-* Pick a Linux-based image (AMI) like Amazon Linux or Ubuntu.
+* I/O management
     
-* Choose an instance type based on your needs.
+* Memory management
     
-
-🔑 **Step 4: Key Pair**
-
-* Use an existing key pair or create a new one for SSH access and download it .
+* Device management etc.
     
 
-remain othe as dofault and click on launch instance 🚀.
-
-then click on connect
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1693262540903/5307d267-475f-4ca9-97d6-ca609a908d6c.png align="center")
-
-# 🔹shell,terminal and bash
-
-Windows kernel is different than Linux kernel.
-
-The terminal is a window promoting on your desktop💻 and it is basically program👨‍💻 Bash( born again she'll) is a language that is an updated version of shell language.
+> use Linux within your Windows environment through options like Amazon AWS(a service that gives servers on rent) 🌐, VirtualBox 💻, Vagrant ⚙️, and dual boot.
